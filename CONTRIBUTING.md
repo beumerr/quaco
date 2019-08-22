@@ -1,6 +1,6 @@
-# Contributing to 'The Google CMS'
+# Contributing to QuaCo
 
-Hi there, you made the right choose contributing to The Google CMS! :tada::+1:
+Hi there, you made the right choose contributing to QuaCo! :tada::+1:
 
 The following is a set of guidelines for contributing to this project.
 
@@ -51,12 +51,12 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for The Google CMS. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for QuaCo. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined your bug, create an issue and provide the following information by filling in [the template](https://github.com/beumerr/The-Google-CMS/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined your bug, create an issue and provide the following information by filling in [the template](https://github.com/beumerr/quaco/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -71,9 +71,9 @@ Explain the problem and include additional details to help maintainers reproduce
 
 ### Feature request
 
-This section guides you through submitting an feature request for The Google CMS, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
+This section guides you through submitting an feature request for QuaCo, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-When you are creating an enhancement suggestion, please fill in [the template](https://github.com/beumerr/The-Google-CMS/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+When you are creating an enhancement suggestion, please fill in [the template](https://github.com/beumerr/quaco/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### How Do I Submit A (Good) Feature Request?
 
@@ -89,7 +89,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to The Google CMS? You can start by looking through these `beginner` and `help-wanted` issues:
+Unsure where to begin contributing to QuaCo? You can start by looking through these `beginner` and `help-wanted` issues:
 
 * `Beginner issues` - issues which should only require a few lines of code, and a test or two.
 * `Help wanted issues` - issues which should be a bit more involved than `beginner` issues.
@@ -102,7 +102,7 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 
 #### Local development
 
-The Google CMS can be developed locally. For instructions on how to do this, see the following sections 
+QuaCo can be developed locally. For instructions on how to do this, see the following sections 
 
 * Fork and Clone
 * Commit and Push
@@ -166,7 +166,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### Documentation Styleguide
 
-* Use [The Google CMS Doc](https://github.com/beumerr/the-google-CMS/docs).
+* Use [QuaCo Docs](https://github.com/beumerr/quaco/docs).
 * Use [Markdown](https://daringfireball.net/projects/markdown).
 * Reference methods and classes in markdown with the custom `{}` notation:
     * Reference classes with `{ClassName}`
