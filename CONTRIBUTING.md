@@ -77,7 +77,7 @@ When you are creating an enhancement suggestion, please fill in [the template](h
 
 #### How Do I Submit A (Good) Feature Request?
 
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#atom-and-packages) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined your enhancement suggestion, create an issue on that repository and provide the following information:
 
 * **Use a clear and descriptive title** for the issue to identify the suggestion.
 * **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
@@ -166,7 +166,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### Documentation Styleguide
 
-* Use [The Google CMS Doc](https://github.com/beumer/the-google-CMS/docs).
+* Use [The Google CMS Doc](https://github.com/beumerr/the-google-CMS/docs).
 * Use [Markdown](https://daringfireball.net/projects/markdown).
 * Reference methods and classes in markdown with the custom `{}` notation:
     * Reference classes with `{ClassName}`
