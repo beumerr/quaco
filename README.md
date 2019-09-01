@@ -41,3 +41,23 @@ Through our up-to-date documentation, developers can easily develop themes and p
 
 4.  **Google is god**
 In every design decision, in every line of code, in every character Google is taken into consideration. If he says kneel, we kneel.
+
+## Progression till Alpha 
+| Completed | Item | 
+|--|--|
+| **40%**  | Proper open-source logistics  | 
+| **70%** | Requirements |  
+| **30%** | UI interface designs  |  
+| **0%** | Software design description |  
+| **20%** | Static HTML/CSS and JS |  
+| **60%** | Relational database (MySQL) |  
+| **0%** | List of SEO factors + calculations |  
+| **0%** | Hook logistics for modules |  
+| **0%** | Settings module |  
+| **0%** | Post module |  
+| **0%** | Custom fields module |  
+| **0%** | Speed module |  
+| **0%** | Content module |  
+| **0%** | Theme controllers |  
+| **0%** | Documentation |  
+:poop: **<- Total completion:** 
