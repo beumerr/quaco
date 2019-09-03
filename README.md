@@ -7,7 +7,7 @@
 
 **Then Quaco brings you the solution**
 
-Quaco is a CMS where everything revolves around search engine optimization and theme development. From the technical side to content writing.
+### Quaco is a CMS where everything revolves around search engine optimization and theme development. From the technical side to content writing.
 
 ## 10 reason why Quaco might intrest you
 
