@@ -24,8 +24,8 @@ Quaco is a CMS where everything revolves around search engine optimization and t
 
 **Then Quaco might be something for you!** :cake: :balloon:
 
-Read a full list of our [SEO standards](https://github.com/beumerr/docs/standards_seomd)
-Read a full list of our [performance standards](https://github.com/beumerr/docs/standards_performance.md)
+1. Read a full list of our [SEO standards](https://github.com/beumerr/quaco/blob/master/docs/standards_seo.md)
+2. Read a full list of our [performance standards](https://github.com/beumerr/quaco/blob/master/docs/standards_performance.md)
 
 
 ## On these 4 rules we've risen from the ashes
