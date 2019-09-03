@@ -1,5 +1,5 @@
 
-# Quaco 
+# Quaco - Quality Content
 
 ### Quaco is a CMS where everything revolves around search engine optimization and theme development. From the technical side to content writing.
 
