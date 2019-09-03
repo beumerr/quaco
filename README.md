@@ -30,16 +30,16 @@ Quaco is a CMS where everything revolves around search engine optimization and t
 
 ## On these 4 rules we've risen from the ashes
 
-1.  **The technical side of your theme must be perfect and lightning fast**
+1.  **The technical side of your theme must be perfect and lightning fast** -
 The "Quaco speed optimiser" module provides the programmer with technical control and feedback for the theme. The module is inspired by GTmetrix, Google Speed ​​Insight and WP Rocket. The module forms a combination of these 3 masters exclusively for your theme development.
 
-2.  **Written content must be checked according the latest Google SEO guidelines**
+2.  **Written content must be checked according the latest Google SEO guidelines** - 
 The "Quaco quality content" module ensures that every author becomes an SEO expert. The module calculates written content based on as many as 200 SEO factors. As the way Google indexes your website, this module evaluates written content. Wordpress connoisseurs may now think of Yoast SEO, but Quaco is taking a big step on top of that with many more factors and in-depth feedback.
 
-3.  **The development of plugins and themes must be simple and well-documented**
+3.  **The development of plugins and themes must be simple and well-documented** - 
 Through our up-to-date documentation, developers can easily develop themes and plugins themselves. Quaco maintains an archive full of certified plugins. However, the plug-ins do not call out a ready-made design. The idea is that developers write CSS themselves. Every customer is a unique project and we have seen enough bootstrap styling in the meantime .. no?
 
-4.  **Google is god**
+4.  **Google is god** - 
 In every design decision, in every line of code, in every character Google is taken into consideration. If he says kneel, we kneel.
 
 ## Progression till Alpha 
