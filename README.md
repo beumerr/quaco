@@ -6,6 +6,8 @@
  1. *Are you a web developer, SEO fanatic or content writer?*
  2. *Are visitors numbers important for your project?*
  3. *Do you want to build high-end themes even quicker than WordPress?*
+ 4. *Bring your client or you a lot of revenue?*
+ 5. *Be on #1 in Google*
 
 **Then Quaco brings you the solution**
 
