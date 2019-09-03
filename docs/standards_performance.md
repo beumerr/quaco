@@ -1,4 +1,4 @@
-# Quaco theme performance allergies
+# Quaco performance standards
 
 Quaco encourages people to develop a fast loading theme. Partly because [#3 in the top 3 SEO factors](https://www.searchenginejournal.com/top-3-google-factors/308147/#close) is performance. Quaco has build-in tools that do about 70% of the work, the other 30% must be achieved by the programmer but don't worry, we got your back. 
 
@@ -13,7 +13,7 @@ Besides performance optimization the most important thing in SEO is content, if 
 | **#3** | HTTP | :skull: | Domains without HTTP'S' <- are not save and therefor Google doesn't like them that much
 | **#4** | Single page sites | :skull: | Although single page sites are very popular here are [5 reasons why they are bad for SEO](https://seo-hacker.com/single-page-websites-bad-seo/) |
 | **#5** | Large ammount of request | :skull: | The more request, the longer the que, the more loading. The type of request doesn't matter (img, xhr, ws, css, doc, etc.). Any resource should be combined as much as possible.|
-| **#6** | Ajax without history | :skull: | If navigating happens based on XML requests (AJAX) make sure to use history and load content according to slugs, GET request should also be casheable |
+| **#6** | Ajax without history | :skull: | If navigating happens based on XML requests (AJAX) make sure to use history and load content according to slugs, GET request should also be cacheable |
 | **#7** | jQuery | :skull: | Every browser support vanilla JS so please stop adding jQuery to improve productivity instead of quality.|
 | **#8** | No .min files | :skull: | Minifying your files (also dynamic page with sitemap pre-cashing to static html files) can reduce loading times up to 70% |
 | **#9** | JS in `<head>` | :skull: | JS in your head delays primary content from being loaded. If your site uses JS to compile then it could be possible that you are dealing with a mature design fault.  |
