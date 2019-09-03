@@ -1,36 +1,37 @@
+
 # Quaco 
 
-During a good conversation with a group of web developers and SEO enthusiasts, 1 common problem emerged. 
+ 1. *Are you a web developer, SEO fanatic or content writer?*
+ 2. *Are visitors numbers important for your project?*
+ 3. *Do you want to build high-end themes even quicker than WordPress?*
 
-> “All our customers want Wordpress or another CMS to manage the content
-> themselves. "
+**Then Quaco brings you the solution**
 
-This may not sound like a problem, but what if I tell you that there is currently no CMS that supports writing quality content and developing a lightning-fast theme that Google will love.
-
-**Quaco** stands for  '**Qua**lity **Co**ntent' and is a CMS that is perfect for websites with commercial goals. We are currently in the early stages of development and need all the help we can get.
-
+Quaco is a CMS where everything revolves around search engine optimization and theme development. From the technical side to content writing.
 
 ## 10 reason why Quaco might intrest you
 
 1.  A CMS should validate and offer feedback on content according to the latest Google SEO guidelines.
-2.  A plugin shouldn't load a shitton of js, css and queries that slow down your theme.
+2.  A plugin shouldn't load a shit ton of JS, CSS and queries that slow down your theme.
 3.  Plugins with free and premium versions full of commercial junk do not belong in a CMS.
 4.  Plugins that are developed by third-parties should be validated on strict aspects.
-5.  A homepage is composed by about 4 queries instead of 56 as with Wordpress.
+5.  A homepage is composed by about 4 queries instead of 56 as with WordPress.
 6.  A front-end and back-end must be super fast, partly because Google judged this.
-7.  The development of real-time themes (by means of XMLrequests and PHP / HTML.) is not yet properly supported.
-8.  Wordpress has been conquered by do-it-yourselfers which increases the productivity of the CMS but the quality and speed is not good enough for websites with commercial goals.
+7.  The development of real-time themes (by means of XML requests and PHP / HTML.) is not yet properly supported.
+8.  WordPress has been conquered by do-it-your-selfers which increases the productivity of the CMS but the quality and speed is not good enough for websites with commercial goals.
 9.  A system should only do what it has to do.
 10. Google is like god to you
 
-    
 **Then Quaco might be something for you!** :cake: :balloon:
+
+Read a full list of our [SEO standards](https://github.com/beumerr/docs/standards_seomd)
+Read a full list of our [performance standards](https://github.com/beumerr/docs/standards_performance.md)
 
 
 ## On these 4 rules we've risen from the ashes
 
 1.  **The technical side of your theme must be perfect and lightning fast**
-The "Quaco speed optimiser" module provides the programmer with technical control and feedback for the theme. The module is inspired by GTmetrix, Google Speed Insight and WP Rocket. The module forms a combination of these 3 masters exclusively for your theme development.
+The "Quaco speed optimiser" module provides the programmer with technical control and feedback for the theme. The module is inspired by GTmetrix, Google Speed ​​Insight and WP Rocket. The module forms a combination of these 3 masters exclusively for your theme development.
 
 2.  **Written content must be checked according the latest Google SEO guidelines**
 The "Quaco quality content" module ensures that every author becomes an SEO expert. The module calculates written content based on as many as 200 SEO factors. As the way Google indexes your website, this module evaluates written content. Wordpress connoisseurs may now think of Yoast SEO, but Quaco is taking a big step on top of that with many more factors and in-depth feedback.
