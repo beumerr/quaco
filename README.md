@@ -44,7 +44,7 @@ In every design decision, in every line of code, in every character Google is ta
 
 ## We need you!
 Do you like to be part of this project and maybe earn some cash in the future?
-We just started this project, and need to form a core development group who will oversee this project and its road to success. If you have experience on one of these fields, then please [join us on discord](https://discord.gg/vFNwt8) or [learn how to contribute](https://github.com/beumerr/quaco/blob/master/CONTRIBUTING.md).
+We just started this project, and need to form a core development group who will oversee this project and its road to success. If you have experience on one of these fields, then please [join us on discord](https://discord.gg/dxVNGtJ) or [learn how to contribute](https://github.com/beumerr/quaco/blob/master/CONTRIBUTING.md).
 
  - Open source management experience
  - Experienced PHP developers
