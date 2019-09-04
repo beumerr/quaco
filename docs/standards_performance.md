@@ -4,7 +4,7 @@ Quaco encourages people to develop a fast loading theme. Partly because [#3 in t
 
 Besides performance optimization the most important thing in SEO is content, if you are interested, go ahead  and read about [Quaco SEO standards](asdasd).
 
-**If there is an item on this list that shouldn't be there then don't hesitate** [join us on Discord](https://discord.gg/wPZy3U) **and start a fight.**
+**If there is an item on this list that shouldn't be there then don't hesitate** [join us on Discord](https://discord.gg/dxVNGtJ) **and start a fight.**
 
 | #Nr | Allergic to | Reaction| Why |
 |--|--|--|--|
