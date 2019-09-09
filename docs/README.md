@@ -105,7 +105,7 @@ The activity diagram below shows how routing affects the panel from being loaded
 # 5. Code Styling Guide
 The styling guide refers to the code format that Quaco expects. Contribution will be checked on these factors. Don't wanna read the hole thing? Download the code styles:
 
- - [Code-style.xml](/dos/code-styling/code-style.xml)
+ - [Code-style.xml](/docs/code-styling/code-style.xml)
  - [Code-style.json](/docs/code-styling/code-style.json)
 
 ## 5.1. HTML / CSS style guide
