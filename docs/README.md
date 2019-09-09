@@ -56,7 +56,7 @@ The 'software design description' (SDD) describes the technical side important t
  1. [Clone](https://help.github.com/en/articles/cloning-a-repository) the [project repository](https://github.com/beumerr/quaco) from GitHub to your webserver folder (htdocs).
  2. Create a new database (with phpMyAdmin).
  3. Open in the 'src' root folder 'config.php' and edit '`DB_*`' fields.
- 4. Execute `localhost/quaco/src/admin/init_db.php` in the browser, this will seed the database
+ 4. Execute `/database/database-query.sql`query in your database
  5. **Done** 
      5.1.  `localhost/quaco/src/admin/`will display the admin panel 
      5.2. `localhost/quaco/src/`will display the theme
