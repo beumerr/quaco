@@ -1,14 +1,17 @@
-# Quaco - Quality Content
+# Quaco - Quality Content manager
 
+  - [Documentation](https://github.com/beumerr/quaco/tree/master/docs)
+  - [Contribution](https://github.com/beumerr/quaco/blob/master/CONTRIBUTING.md)
+  
 ### Quaco is a CMS where everything revolves around search engine optimization and theme development. From the technical side to content writing.
 
  1. *Are you a web developer, SEO fanatic or content writer?*
  2. *Are visitors numbers important for your project?*
  3. *Do you want to build high-end themes even quicker than WordPress?*
  4. *Bring your clients and you a lot of revenue*
- 5. *Be on #1 in Google*
+ 5. *Get your websites on #1 in Google*
 
-**Then Quaco brings you the solution**
+**Then continue reading this document**
 
 ## 10 reason why Quaco might interest you
 
@@ -39,7 +42,7 @@ The "Quaco quality content" module ensures that every author becomes an SEO expe
 3.  **The development of plugins and themes must be simple and well-documented** - 
 Through our up-to-date documentation, developers can easily develop themes and plugins themselves. Quaco maintains an archive full of certified plugins. However, the plug-ins do not call out a ready-made design. The idea is that developers write CSS themselves. Every customer is a unique project, and we have seen enough bootstrap styling in the meantime .. no?
 
-4.  **Google is god** - 
+4.  **Google optimisation** - 
 In every design decision, in every line of code, in every character Google is taken into consideration. If he says kneel, we kneel.
 
 ## We need you!
@@ -59,21 +62,21 @@ We just started this project, and need to form a core development group who will
 ## Progression till Alpha 
 | Completed | Item | 
 |--|--|
-| **40%**  | Proper open-source logistics  | 
-| **70%** | Requirements |  
+| **65%**  | Proper open-source logistics  | 
+| **100%** | Requirements |  
 | **30%** | UI interface designs  |  
-| **0%** | Software design description |  
+| **72%** | Software design description |  
 | **20%** | Static HTML/CSS and JS |  
 | **80%** | Relational database (MySQL) |  
-| **30%** | List of SEO factors + calculations |  
-| **0%** | Back-end logistics |  
-| **0%** | Default admin classes |  
-| **0%** | hook logistics for modules |  
+| **30%** | Back-end logistics |  
+| **35%** | Default admin classes |  
+| **100%** | hook logistics for modules |  
 | **0%** | Settings module |  
+| **0%** | Media module |  
 | **0%** | Post module |  
 | **0%** | Custom fields module |  
 | **0%** | Speed module |  
 | **0%** | Content module |  
 | **0%** | Theme controllers |  
 | **0%** | Documentation |  
-| :poop:  | **Total completion** |
+| 9000  | **Total completion** |
