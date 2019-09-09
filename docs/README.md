@@ -68,15 +68,14 @@ The 'software design description' (SDD) describes the technical side important t
    3.1. Open 'src/.htaccess' edit `RewriteBase` like you did in #2 and `RewriteRule`
    3.1. Open 'src/admin/.htaccess' edit `RewriteBase` like you did in #2 and `RewriteRule`
 
-:fire:  For these 2 .htaccess files there is an issue open to merge both files into 1.
-:wrench: Learn how to contribute
+:fire:  For these 2 .htaccess files there is an [issue open](https://github.com/beumerr/quaco/issues/10) to merge both files.
 
 ## 2.3 Deployment diagram
 ![enter image description here](https://i.ibb.co/mtHF2x5/Deployment-Diagram.jpg)
 
 # 3. Architectural Overview
 ## 3.1. Bootstrapping
-**Bootstrapping** refers to the process that is completed bilaterally from the start point to the end. At this moment in time there are 3 bootstrappers (yes this needs to be changed, please review this issue). A bootstrapper first validates the URL request in `qc-route.php` and then either redirect or continue strapping the page.
+**Bootstrapping** refers to the process that is completed bilaterally from the start point to the end. At this moment in time there are 3 bootstrappers (yes this needs to be changed, please [review this issue](https://github.com/beumerr/quaco/issues/11)). A bootstrapper first validates the URL request in `qc-route.php` and then either redirect or continue strapping the page.
 
  1. **src/index.php** - used to compile the theme
  2. **src/admin/index.php** - used to compile the admin panel
@@ -95,7 +94,7 @@ The Quaco theme and admin panel both work with dynamic URL's. Both clients have 
 The activity diagram below shows how routing affects the panel from being loaded.
 *Note: There is no user authentication YET but this is issue will be open once [this](https://github.com/beumerr/quaco/issues/7) database class issue is completed.* 
 
-![enter image description here](https://i.ibb.co/Ry83HL8/Admin-routing-with-XML-support.jpg)
+![Admin routing with XML support](https://i.ibb.co/Ry83HL8/Admin-routing-with-XML-support.jpg)
 
 ## 3.3. Design class diagram
 *Coming soon*
