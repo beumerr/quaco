@@ -1,19 +1,20 @@
 # Table of content
--   [1. Introduction](#introduction)
-    -   [1.1. Overall Description](#overall-description)
-    -   [1.2. Definitions, acronyms, and abbreviations](#definitions-acronums-and-abbreviations)
--   [2. Deployment](#deployment)
-    -  [2.1. Deployment requirements](#deployment-requirements)
-    -  [2.2. Deployment instructions](#deployment-instructions)
-    -  [2.3. Deployment diagram](#deployment-diagram)
--   [3. Architectural Overview](#architectural-overview)
-    -   [3.1. Bootstrapping](#bootstrapping)
-    -   [3.2. Routing](#routing)
-    -   [3.2. Design class diagram](#design-class-diagram)
--   [4. Modules](#modules)
--   [5. Code styling guide](#code-styling-guide)
-    -  [5.1. HTML / CSS style guide](#html-css-style-guide)
-    -  [5.2. PHP style guide](#php-style-guide)
+
+-   [1. Introduction](#1-introduction)
+    -   [1.1. Overall Description](#11-overall-description)
+    -   [1.2. Definitions, acronyms, and abbreviations](#12-definitions-acronyms-and-abbreviations)
+-   [2. Deployment](#2-deployment)
+    -  [2.1. Deployment requirements](#21-deployment-requirements)
+    -  [2.2. Deployment instructions](#22-deployment-instructions)
+    -  [2.3. Deployment diagram](#23-deployment-diagram)
+-   [3. Architectural Overview](#3-architectural-overview)
+    -   [3.1. Bootstrapping](#31-bootstrapping)
+    -   [3.2. Routing](#32-routing)
+    -   [3.3. Design class diagram](#33-design-class-diagram)
+-   [4. Modules](#4-modules)
+-   [5. Code styling guide](#5-code-styling-guide)
+    -  [5.1. HTML / CSS style guide](#51-html-css-style-guide)
+    -  [5.2. PHP style guide](#52-php-style-guide)
 
 # 1. Introduction
 
@@ -35,8 +36,9 @@ The 'software design description' (SDD) describes the technical side important t
 
 **PHP version will change on 28 November to 7.4**
 
-**[*]** = Version is required and tested
-**[ ]**  = Untested, 
+- **[*]** = Version is required and tested
+- **[ ]**  = Untested, 
+
 | Type | version | 
 |--|--|
 | **[*]** PHP | 7+ |
@@ -50,6 +52,7 @@ The 'software design description' (SDD) describes the technical side important t
 ## 2.2 Deployment instruction
 
 **PRE CONDITION:** Make you sure you have Apache webserver running. For development purposes I recommend using [XAMP](https://www.apachefriends.org/download.html) for Windows or [AMPPS](https://ampps.com/download) for Mac.
+
  1. [Clone](https://help.github.com/en/articles/cloning-a-repository) the [project repository](https://github.com/beumerr/quaco) from GitHub to your webserver folder (htdocs).
  2. Create a new database (with phpMyAdmin).
  3. Open in the 'src' root folder 'config.php' and edit '`DB_*`' fields.
@@ -83,6 +86,7 @@ The 'software design description' (SDD) describes the technical side important t
 The Quaco theme and admin panel both work with dynamic URL's. Both clients have their own .htaccess to redirect to their client root folder ('/theme' or '/admin') index.php file but contain  their URL.
 
 **[*] = wildcard**
+
 | Main route | Rewrite to | Used for |
 |--|--|--|
 | /* | scr/index.php | Used to compile the theme that visitors will see |
