@@ -71,7 +71,7 @@ The 'software design description' (SDD) describes the technical side important t
 :fire:  For these 2 .htaccess files there is an [issue open](https://github.com/beumerr/quaco/issues/10) to merge both files.
 
 ## 2.3 Deployment diagram
-![enter image description here](https://i.ibb.co/mtHF2x5/Deployment-Diagram.jpg)
+![Deployment diagram](https://i.ibb.co/mtHF2x5/Deployment-Diagram.jpg)
 
 # 3. Architectural Overview
 ## 3.1. Bootstrapping
@@ -105,8 +105,8 @@ The activity diagram below shows how routing affects the panel from being loaded
 # 5. Code Styling Guide
 The styling guide refers to the code format that Quaco expects. Contribution will be checked on these factors. Don't wanna read the hole thing? Download the code styles:
 
- - [Code-style.xml](/code-styling/code-style.xml)
- - [Code-style.json](/code-styling/code-style.json)
+ - [Code-style.xml](/dos/code-styling/code-style.xml)
+ - [Code-style.json](/docs/code-styling/code-style.json)
 
 ## 5.1. HTML / CSS style guide
 
