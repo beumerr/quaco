@@ -21,7 +21,7 @@ Besides performance optimization the most important thing in SEO is content, if 
 | **#11** |More than 2 JS files| :broken_heart: | For 1 page there shouldn't be more then 2 JS files. One for your overall 'scripts', the other 'page' related |
 | **#12** | No browser cache | :broken_heart: | Just like Gzip, cache has to do everything with loading times. If an HTTP request is still fresh local storage will be consulted instead of re downloading. |
 | **#13** | Inline JS/CSS | :broken_heart: | Some people might argue inline CSS because it can increase render times if you only use CSS that before the folt |
-| **#14** | Expire header | :lemon: | Expires headers tell the browser whether a resource on a website needs to be requested from the server or fetched from local storage |
+| **#14** | Expire header | :lemon: or :skull: | Expires headers tell the browser whether a resource on a website needs to be requested from the server or fetched from local storage. If dynamic content has a long expire date, fresh content will not be visible. |
 | **#15** | CDN | :lemon: | When using a content delivery network, visitors worldwide will be connected to the nearest proxy server reducing loading items |
 
 *There are many more optimization with lower priority that we didn't put in this list, feel like its missing important aspects? Get in contact.*
