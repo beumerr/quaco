@@ -21,7 +21,7 @@ $args = [
             "group" => "development",
             "icon" => "<i class=\"la la-cog\"></i>",
             "order" => 1,
-            "admin_init" => 'sections/test.php',
+            "admin_init" => 'section/test.php',
         ]
     ]
 ];

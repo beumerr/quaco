@@ -20,46 +20,43 @@ $args = [
     "slug" => "post",
     "pages" => [
         [
-            "name" => "404",
-            "slug" => "404",
-            "group" => "author",
-            "hidden" => true,
-            "admin_init" => 'sections/test.php',
+	        "name" => "Pages",
+	        "slug" => "page",
+	        "group" => "author",
+	        "icon" => "<i class=\"la la-file-archive-o\"></i>",
+	        "order" => 2,
+	        "admin_init" => 'section/test.php',
+	        "single_init" => 'section/test.php',
         ], [
             "name" => "News",
             "slug" => "news",
             "group" => "author",
-            "icon" => "<i class=\"la la-newspaper-o\"></i>",
-            "order" => 4,
-            "admin_init" => 'sections/test.php',
-        ], [
-            "name" => "Projects",
-            "slug" => "projects",
-            "group" => "author",
-            "icon" => "<i class=\"la la-wrench\"></i>",
-            "order" => 3,
-            "admin_init" => 'sections/test.php',
-        ], [
-            "name" => "Pages",
-            "slug" => "pages",
-            "group" => "author",
-            "icon" => "<i class=\"la la-book\"></i>",
-            "order" => 2,
-            "admin_init" => 'sections/test.php',
-        ], [
-            "name" => "Post types",
-            "slug" => "post-types",
-            "group" => "development",
             "icon" => "<i class=\"la la-file-archive-o\"></i>",
             "order" => 3,
-            "admin_init" => 'sections/test.php',
-        ], [
-            "name" => "Page templates",
-            "slug" => "page-templates",
-            "group" => "development",
-            "icon" => "<i class=\"la la-text-width\"></i>",
-            "order" => 5,
-            "admin_init" => 'sections/test.php',
+		    "sub_pages" => ['view','edit','new'],
+		    "support" => [
+		    	"title" => true,
+			    "keywords" => true,
+			    "parent" => true,
+			    "category" => true,
+			    "theme" => false,
+			    "meta_description" => true,
+			    "excerpt" => true,
+			    "content" => true,
+			    "thumbnail" => true,
+			    "media_banner" =>  true
+		    ],
+		    "filter" => [
+		    	"title" => true,
+			    "seo" => true,
+			    "focus" => true,
+			    "author" => true,
+			    "date" => true
+		    ],
+		    "seo_support" => true,
+            "admin_init" => 'inc/init.php',
+		    "single_init" => 'section/test.php',
+		    "archive_init" => 'section/test.php'
         ]
     ]
 ];

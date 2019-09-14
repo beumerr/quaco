@@ -5,10 +5,10 @@ define('ABSPATH'    , dirname(__FILE__ ) . '/');
 define('ADMIN'      , ABSPATH . 'admin/');
 define('MODULES'    , ABSPATH . 'module/');
 define('THEME'      , ABSPATH . 'theme/');
-define('HELPERS'    , ADMIN.'helpers/');
+define('HELPERS'    , ADMIN.'helper/');
 define('INC'        , ADMIN.'inc/');
-define('SECTIONS'   , ADMIN.'sections/');
-
+define('SECTIONS'   , ADMIN.'section/');
+define('ACTIONS'    , ADMIN.'action/');
 
 // ------------------------------------
  

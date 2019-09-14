@@ -5,40 +5,46 @@
  * @version 0.1
  */
 
-// Define paths
-define('THIS'    , dirname(__FILE__ ,2) . '/');
-// Require config constants
-require_once(THIS . 'config.php');
+// Define paths and constants
+define('CFG', dirname(__FILE__ ,2) . '/');
+require_once(CFG . 'config.php');
 
 // Load essentials before (possible) redirect
-require_once(INC . 'qc-route.php');
-require_once(INC . 'qc-module-arguments.php');
+require_once(HELPERS . 'functions.php');
+require_once(INC . 'class-error-handle.php');
+require_once(INC . 'class-route.php');
+require_once(INC . 'class-session.php');
 
-// Init url related routing
-global $url;
-$url = new QC_route();
+// Declare globals
+global $err, $ses, $url, $qdb, $mdl, $pnl;
 
-// Init module arguments
-global $mdls;
-$mdls = new QC_module_arguments();
+// Init essential globals
+$err = new Error_handle;
+$ses = new Session;
+$url = new Route;
+
+// If session 'user_id is' not set and url is not 'login' redirect to 'login'
+if(!isset($_SESSION['user_id']) && $url->get_actual_request() !== 'login')
+	$url->safe_redirect('login');
+
+// Load module arguments and set default
+require_once(INC . 'class-module.php');
+$mdl = new Module;
 
 // Check whether redirect is required
-$url->check_url_redirect(($mdls->get_active_module())['slug']);
-
+$url->check_url_redirect();
 
 //--------------------------------------------------------------
 
 
 // Require includes
-require_once(HELPERS . 'functions.php');
-require_once(INC . 'qc-database.php');
-require_once(INC . 'qc-admin-menu.php');
-require_once(INC . 'qc-module.php');
-require_once(INC . 'qc-panel.php');
+require_once(INC . 'class-database.php');
+require_once(INC . 'class-user.php');
+require_once(INC . 'class-admin-menu.php');
+require_once(INC . 'class-panel.php');
 
-// Include the database class and, if present, a db.php database drop-in.
-global $db;
-$db = new QC_database(
+// Init database
+$qdb = new Database(
     DB_USER,
     DB_PASSWORD,
     DB_NAME,
@@ -49,5 +55,5 @@ $db = new QC_database(
 
 // Draw the panel
 global $panel;
-$panel = new QC_panel($mdls->get_module_arguments(), $mdls->get_active_module());
+$panel = new Panel($mdl->get_module_arguments(), $mdl->get_active_module());
 $panel->draw_panel();

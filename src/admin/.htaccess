@@ -6,7 +6,7 @@
     RewriteRule ^index\.php$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . /quaco/src/admin/index.php [L]
+    RewriteRule . /quaco/src/admin/index.php
 </IfModule>
 
 # END Quaco admin
