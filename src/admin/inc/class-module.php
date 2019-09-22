@@ -40,13 +40,18 @@ class Module {
 
     // Determine active module based on valid slug or where ["active" => 1]
     public function set_active_module($module_slug = false) {
+
+    	// TODO: calling $url makes Module depend on Route const being init before, which is not robust enough
+	    // TOTO: Best thing to do is a create a loader then can be used widely throughout xml req. and modules/pages
+
         global $url;
         $slug = $url->get_actual_request();
 
         foreach ($this->modules as $module_name => $module) {
             foreach ($module['pages'] as $key => $page) {
-            	// Append module dir to page arr
+            	// Append module dir and admin init to page arr
                 $page['dir'] = $module_name;
+	            $page['admin_init'] = $module['admin_init'];
 
                 // Append module JS to page arr
                 if(isset($module['js_files']))
@@ -98,6 +103,28 @@ class Module {
         }
         return false;
     }
+
+    public function module_exists($module_slug) {
+    	foreach($this->modules as $name => $values)
+    		if($values['slug'] === $module_slug) return true;
+
+    	return false;
+    }
+
+    public function action_exists($action) {
+    	foreach($this->active_module['actions'] as $index => $action)
+    		if($action['action'] === $action) return true;
+
+    	return false;
+    }
+
+
+	public function get_action($action) {
+		foreach($this->active_module['actions'] as $index => $action)
+			if($action['action'] === $action) return $action;
+
+		return false;
+	}
 
     // One liners
     public function set_default_module_slug($slug)  { $this->default_module_slug = $slug; }

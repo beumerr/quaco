@@ -16,7 +16,7 @@ require_once(INC . 'class-route.php');
 require_once(INC . 'class-session.php');
 
 // Declare globals
-global $err, $ses, $url, $qdb, $mdl, $pnl;
+global $err, $ses, $url, $qdb, $mdl, $pnl, $usr;
 
 // Init essential globals
 $err = new Error_handle;
@@ -39,6 +39,7 @@ $url->check_url_redirect();
 
 // Require includes
 require_once(INC . 'class-database.php');
+require_once(INC . 'class-query.php');
 require_once(INC . 'class-user.php');
 require_once(INC . 'class-admin-menu.php');
 require_once(INC . 'class-panel.php');
@@ -52,6 +53,9 @@ $qdb = new Database(
     DB_CHARSET,
     DB_COLLATE
 );
+
+$user_id = (isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0);
+$usr = new User($user_id);
 
 // Draw the panel
 global $panel;

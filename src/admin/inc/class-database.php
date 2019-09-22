@@ -46,7 +46,7 @@ class Database {
     protected $dbh;
 
     // Query result
-    protected $result, $last_error, $rows_affected, $last_result, $num_rows;
+    public $result, $last_error, $rows_affected, $last_result, $num_rows;
 
     // Whether connection is successful
     private $has_connected = false;
@@ -201,6 +201,33 @@ class Database {
         return $this->add_placeholder_escape($query);
     }
 
+	/**
+	 * Kill cached query results.
+	 *
+	 * @since 0.71
+	 */
+	public function flush() {
+		$this->last_result   = array();
+		$this->rows_affected = $this->num_rows = 0;
+		$this->last_error    = '';
+
+		if ($this->result instanceof mysqli_result ) {
+			mysqli_free_result( $this->result );
+			$this->result = null;
+
+			// Sanity check before using the handle
+			if ( empty( $this->dbh ) || ! ( $this->dbh instanceof mysqli ) ) {
+				return;
+			}
+
+			// Clear out any results from a multi-query
+			while ( mysqli_more_results( $this->dbh ) ) {
+				mysqli_next_result( $this->dbh );
+			}
+		}
+	}
+
+
     /**
      * Perform a MySQL database query, using current database connection.
      *
@@ -213,6 +240,9 @@ class Database {
      *
      */
     public function query($query) {
+
+    	// Kill old results first
+	    $this->flush();
 
         // Preform the query
         $this->result = mysqli_query($this->dbh, $query);
@@ -252,7 +282,7 @@ class Database {
                 $this->last_insert_id = 0;
             }
 
-            print_r($this->last_insert_id);
+
             return false;
         }
 
@@ -761,4 +791,6 @@ class Database {
         }
         return null;
     }
+
+
 }

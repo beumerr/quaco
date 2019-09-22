@@ -20,7 +20,7 @@ class Panel {
     private $css_files = ['reset', 'icons', 'style'];
 
     // Default JS files above </body> tag in order
-    private $js_files = ['jquery-3.4.1.min', 'scripts'];
+    private $js_files = ['jquery-3.4.1.min', 'jquery.quicksearch', 'scripts'];
 
     // Inline JS script (for now only used by XML requests)
     private $inline_js_html;
@@ -163,9 +163,10 @@ class Panel {
 
     // Set inline JS script (for now only used by XML requests)
     private function set_inline_js_html() {
-        global $url;
+        global $url, $mdl;
 
-        $this->inline_js_html = "<script>let ABSPATH = '".$url->host.BASE_DIR."';</script>";
+        $this->inline_js_html = "<script>let MDL = '".json_encode($mdl->get_active_module())."';".
+	                            "let ABSPATH = '".$url->host.BASE_DIR."';</script>";
     }
 
     // Echo top bar

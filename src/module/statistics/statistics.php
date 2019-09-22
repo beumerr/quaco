@@ -11,6 +11,7 @@ defined('ABSPATH') || die('Nope nope nope..');
 $args = [
     "name" => "Statistics",
     "slug" => "statistics",
+	"admin_init" => 'section/test.php',
     "pages" => [
         [
             "name" => "Statistics",
@@ -19,7 +20,7 @@ $args = [
             "group" => "author",
             "icon" => "<i class=\"la la-pie-chart\"></i>",
             "order" => 1,
-            "admin_init" => 'section/test.php',
+
             "theme_init" => 'asdasd'
         ]
     ]

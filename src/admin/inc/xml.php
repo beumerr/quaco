@@ -10,8 +10,7 @@ require_once(HELPERS . 'functions.php');
 // Get the action
 $action = test_input($_POST['action']);
 
-// Get (possible) data
-$data = [];
+// Set (possible) data, action response handler can target $data
 foreach($_POST as $index => $value) {
 	if($index !== 'action')
 		$data[test_input($index)] = test_input($value);
@@ -32,12 +31,27 @@ switch($action) {
 		require_once(ACTIONS . 'load_module_page.php');
 		break;
 	default:
-		echo json_encode([
-			'success'   => false,
-			'msg'       => "Unknown action: ".$action." - Please review: ".__FILE__
-		]);
-		header('Content-Type: application/json');
-		break;
+		require_once(INC . 'class-route.php');
+		require_once(INC . 'class-module.php');
+
+		global $mdl, $url;
+		$url = new Route;
+		$mdl = new Module;
+
+		if(isset($data['module']) && $mdl->module_exists($data['module'] && $mdl->action_exists($action))) {
+			$mdl->set_active_module($data['module']);
+			$module = $mdl->get_active_module();
+			$action = $mdl->get_action($action);
+
+			require_once (MODULES . $module['dir'].'/'.$action->payload);
+
+		} else {
+			echo json_encode([
+				'success'   => false,
+				'msg'       => "Unknown action: ".$action." - Please review: ".__FILE__
+			]);
+			header('Content-Type: application/json');
+		}
 }
 
 exit();

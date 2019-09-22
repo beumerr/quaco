@@ -17,5 +17,4 @@ echo json_encode([
 	'title' => 'Login › Quaco',
 	'url'   => $url->get_login_url(),
 ]);
-header('Content-Type: application/json');
 exit();

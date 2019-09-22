@@ -18,13 +18,13 @@ $name = 'post';
 $args = [
 	"name" => "Login",
 	"slug" => "login",
+	"admin_init" => 'section/login_page.php',
 	"pages" => [
 		[
 			"name" => "login",
 			"slug" => "login",
 			"hidden" => true,
 			"panel_container" => false,
-			"admin_init" => 'section/login_page.php',
 		]
 	]
 ];

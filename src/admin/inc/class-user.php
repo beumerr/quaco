@@ -23,6 +23,7 @@ class User {
 	private $current_user_meta = [];
 
 	public function __construct($user_id = 0, $set_meta = false) {
+		// TODO: Check if DB is connected before constructing this Class
 		if($user_id > 0) {
 			$this->set_current_user($user_id, $set_meta);
 		}
@@ -185,6 +186,19 @@ class User {
 			return $this->current_user_meta;
 		}
 		return false;
+	}
+
+	public function get_names_by_ids($user_ids = []) {
+		global $qdb;
+
+		if(!empty($user_ids)) {
+			$arr_str    = implode(",", $user_ids);
+			$sprint_str = preg_replace('/[0-9]+/', '%d ', $arr_str);
+			$query      = "SELECT id, first_name, last_name FROM user WHERE id = $sprint_str";
+
+			$prepare = $qdb->prepare($query, $user_ids);
+			return $qdb->get_results($prepare);
+		}
 	}
 
 	// Get user is set true/false
