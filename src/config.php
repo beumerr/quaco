@@ -10,6 +10,7 @@ define('INC'        , ADMIN.'inc/');
 define('SECTIONS'   , ADMIN.'section/');
 define('ACTIONS'    , ADMIN.'action/');
 
+
 // ------------------------------------
  
 
@@ -37,10 +38,11 @@ define('DB_HOST', 'localhost');
 // Database Charset to use in creating database tables.
 define('DB_CHARSET', 'utf8mb4');
 
-// Database Collate type. Don't change this if in doubt. */
+// Database Collate type. Don't change this if in doubt.
 define('DB_COLLATE', 'utf8mb4_unicode_520_ci');
 
 // Salt for some extra protection
+// Use: https://passwordsgenerator.net/ with password length: 50
 define('SALT_KEY', '{oal!3z4.Z|VNDOZ3-k~3y5`xU`fIP][+/~$7FQFb&7|6!%7yK<MAec^4h^*ke[d');
 
 // Suppress errors

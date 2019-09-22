@@ -12,13 +12,14 @@ defined('ABSPATH') || die('Nope nope nope..');
 $args = [
 	"name" => "Miscellaneous",
 	"slug" => "miscellaneous",
+	"admin_init" => 'page/404.php',
 	"pages" => [
 		[
 			"name" => "404",
 			"slug" => "404",
 			"group" => "author",
 			"hidden" => true,
-			"admin_init" => 'page/404.php',
+
 		]
 	]
 ];

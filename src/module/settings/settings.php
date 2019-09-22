@@ -14,6 +14,7 @@ $name = 'settings';
 $args = [
     "name" => "Settings",
     "slug" => "settings",
+	"admin_init" => 'section/test.php',
     "pages" => [
         [
             "name" => "Settings",
@@ -21,7 +22,7 @@ $args = [
             "group" => "development",
             "icon" => "<i class=\"la la-cog\"></i>",
             "order" => 1,
-            "admin_init" => 'section/test.php',
+
         ]
     ]
 ];
