@@ -2,86 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a083ef4-f8b9-40d8-a6b1-fc7fced3bb6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/action/load_module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/action/sign_in.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/action/sign_out.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/asset/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/helper/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/class-database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/class-error-handle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/class-module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/class-session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/class-user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/inc/xml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/section/top-bar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/login/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/login/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/login/section/login_page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/login/section/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/statistics/section/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/speed-optimiser/speed-optimiser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/speed-optimiser/static/static-html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/dictionaries/Thomas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/gb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/css/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/css/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/icons/line-awesome.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/icons/line-awesome.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/icons/line-awesome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/icons/line-awesome.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/icons/line-awesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/icons/line-awesome.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/icons/line-awesome.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/icons/line-awesome.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/icons/line-awesome.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/icons/line-awesome.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold-italic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold-italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold-italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold-italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold-italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular-italic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular-italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular-italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular-italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular-italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/fonts/noe/noe-display-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/fonts/noe/noe-display-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/img/bg-detail-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/img/bg-detail-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/img/bg-detail-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/img/bg-detail-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/img/bg-detail-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/img/bg-detail-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/js/chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/statistics/js/chart.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/js/init-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/statistics/js/init-chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/helpers/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/helpers/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/helper/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/helpers/load_xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/helper/load_xml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-admin-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/class-admin-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-load-xml.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-module-arguments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-module.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/class-panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/inc/qc-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/class-route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/action/sign_in.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/action/sign_in.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/asset/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/asset/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/helper/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/helper/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/inc/class-database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/class-database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/inc/class-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/class-panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/inc/xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/inc/xml.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/sections/top-bar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/post/admin/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/post/admin/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/post/inc/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/post/inc/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/post/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/post/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/post/sections/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/post/section/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/settings/sections/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/settings/section/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/settings/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/settings/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/stats/sections/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/stats/stats.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/statistics/statistics.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,26 +31,85 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module/post/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/admin/asset/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40698">
+              <caret line="2394" column="20" selection-start-line="2394" selection-start-column="20" selection-end-line="2394" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/admin/asset/css/style.css">
+        <entry file="file://$PROJECT_DIR$/src/module/content-optimiser/static/static-html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="1300" column="16" lean-forward="true" selection-start-line="1300" selection-start-column="16" selection-end-line="1300" selection-end-column="16" />
+            <state relative-caret-position="96">
+              <caret line="866" column="42" lean-forward="true" selection-start-line="866" selection-start-column="42" selection-end-line="866" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module/post/inc/class-view-table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+              <folding>
+                <element signature="n#set_table_html#0;n#View_table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module/speed-optimiser/static/static-html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="30" selection-start-line="49" selection-start-column="24" selection-end-line="59" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module/post/admin/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="26" selection-start-line="39" selection-start-column="20" selection-end-line="45" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>no-margin</find>
+      <find>green-label</find>
+      <find>total</find>
+      <find>no-paddin</find>
+      <find>la-after</find>
+      <find>tab-content-link-3</find>
+      <find>add-row</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,20 +118,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/admin/asset/css/style.css" />
+        <option value="$PROJECT_DIR$/src/module/content-optimiser/static/static-html.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1923" />
-    <option name="y" value="292" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="x" value="-1794" />
+    <option name="y" value="22" />
+    <option name="width" value="1800" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,26 +150,21 @@
               <item name="quaco" type="b2602c69:ProjectViewProjectNode" />
               <item name="quaco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quaco" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quaco" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../b" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,24 +189,24 @@
       <option name="presentableId" value="Default" />
       <updated>1568388514747</updated>
       <workItem from="1568388516454" duration="857000" />
+      <workItem from="1569482143069" duration="607000" />
+      <workItem from="1569924793833" duration="7438000" />
+      <workItem from="1570112554307" duration="663000" />
+      <workItem from="1571304443893" duration="1246000" />
+      <workItem from="1571646061565" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="857000" />
+    <option name="totallyTimeSpent" value="11432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21275167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -222,27 +214,73 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/module/speed-optimiser/speed-optimiser.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/post/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/asset/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="1300" column="16" lean-forward="true" selection-start-line="1300" selection-start-column="16" selection-end-line="1300" selection-end-column="16" />
+        <state relative-caret-position="40698">
+          <caret line="2394" column="20" selection-start-line="2394" selection-start-column="20" selection-end-line="2394" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/post/inc/class-view-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+          <folding>
+            <element signature="n#set_table_html#0;n#View_table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/speed-optimiser/static/static-html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="30" selection-start-line="49" selection-start-column="24" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/post/admin/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="26" selection-start-line="39" selection-start-column="20" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/content-optimiser/static/static-html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="866" column="42" lean-forward="true" selection-start-line="866" selection-start-column="42" selection-end-line="866" selection-end-column="42" />
         </state>
       </provider>
     </entry>

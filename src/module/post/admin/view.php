@@ -21,7 +21,7 @@
 			<div class="button-row clear-after">
 				<div class="button-list align-left">
                     <div class="flex-row no-margin">
-                        <div class="submit-button small-button extend-button blue-bg icon-after border-light float-left"
+                        <div class="submit-button shadow-light small-button extend-button blue-bg icon-after border-light float-left"
                              onclick="load_xml('LOAD_MODULE_PAGE', '<?php echo _type_to_json($module['slug'], 'add'); ?>')">
                             Add <?php echo $module['slug']; ?>
                         </div>
@@ -50,13 +50,13 @@
 		</div>
 	</div>
 </section>
-<div class="popup-wrapper">
+<div class="popup-wrapper hidden">
     <div class="popup-overlay" onclick="close_popup()"></div>
     <div class="popup-container">
         <div class="popup-content shadow-medium">
             <div class="popup-bar clear-after">
                 <span class="popup-alert float-left"><i class="la la-warning"></i> Attention please</span>
-                <i class="la la-close float-right"></i>
+                <i onclick="close_popup()" class="la la-close float-right"></i>
             </div>
 
             <p class="popup-msg">Are you sure you want to delete this 'post'?</p>

@@ -228,10 +228,16 @@ function delete_item(post_id) {
 
     show_popup()
 }
-function show_poup() {
-    let popup_wrapper = $('popup-wrapper');
+function show_popup() {
+    let popup_wrapper = $('.popup-wrapper');
+    popup_wrapper.removeClass('hidden');
 
 }
+function close_popup() {
+    let popup_wrapper = $('.popup-wrapper');
+    popup_wrapper.addClass('hidden');
+}
+
 function remove_odd_even() {
     $('.odd_row').removeClass('odd_row');
     $('.even_row').removeClass('even_row');
@@ -415,4 +421,45 @@ function sort_this(index) {
     add_odd_even();
 
     inverse = !inverse;
+}
+
+let active_tab = 1;
+function change_tab(str, id) {
+    flush_active(str, id);
+    set_active(str, id);
+}
+
+function flush_active(str, id) {
+    let items = $('.tab-link.active, .tab-section.active');
+    items.removeClass('active');
+}
+
+function set_active(str, id) {
+    let active_menu = $('#tab-'+str+'-link-'+id),
+        active_sect = $('#tab-'+str+'-section-'+id);
+    active_menu.addClass('active');
+    active_sect.addClass('active');
+}
+
+function remove_inactive(str, id) {
+    $('#'+str+'-'+id).removeClass('inactive');
+}
+
+function change_label(container_id) {
+    let switches = $('#'+container_id+' span'),
+        class_str = 'hidden-top hidden-bottom';
+
+    switches.each(function(i) {
+        if($(this).hasClass('hidden-bottom') || $(this).hasClass('hidden-top')) {
+
+            $(this).removeClass('hidden-bottom');
+            $(this).removeClass('hidden-top');
+
+        } else if(i === 0) {
+            $(this).addClass('hidden-top')
+        } else {
+            $(this).addClass('hidden-bottom')
+        }
+    })
+
 }

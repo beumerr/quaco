@@ -207,7 +207,7 @@ class Database {
 	 * @since 0.71
 	 */
 	public function flush() {
-		$this->last_result   = array();
+		$this->last_result   = [];
 		$this->rows_affected = $this->num_rows = 0;
 		$this->last_error    = '';
 

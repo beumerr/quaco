@@ -21,7 +21,7 @@ $args = [
             "slug" => "settings",
             "group" => "development",
             "icon" => "<i class=\"la la-cog\"></i>",
-            "order" => 1,
+            "order" => 2,
 
         ]
     ]

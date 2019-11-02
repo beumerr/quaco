@@ -14,15 +14,28 @@ $args = [
     "name"          => "Post",
     "slug"          => "post",
 	"admin_init"    => 'inc/init.php',
+
     "pages" => [
         [
 	        "name"          => "News",
 	        "slug"          => "news",
-	        "type_id"       => 1,
+	        "type_id"       => 2,
 	        "group"         => "author",
 	        "icon"          => "<i class=\"la la-file-archive-o\"></i>",
 	        "order"         => 2,
 	        "show"          => 10,
+	        "support" => [
+		        "keywords"      => true,
+		        "parent"        => true,
+		        "author"        => true,
+		        "category"      => true,
+		        "theme"         => true,
+		        "meta_desc"     => true,
+		        "excerpt"       => true,
+		        "content"       => true,
+		        "thumbnail"     => true,
+		        "media_banner"  => true
+	        ]
         ],
 	    [
             "name"          => "Page",
