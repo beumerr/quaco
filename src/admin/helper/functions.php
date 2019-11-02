@@ -9,10 +9,11 @@ function test_input($data) {
 }
 
 
-function require_to_var($file) {
+function require_to_var($file, $min = true) {
     ob_start();
     require($file);
-    return sanitize_output(ob_get_clean());
+
+    return $min ? sanitize_output(ob_get_clean()) : ob_get_clean();
 }
 
 

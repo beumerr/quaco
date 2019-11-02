@@ -50,7 +50,6 @@ switch($action) {
 				'success'   => false,
 				'msg'       => "Unknown action: ".$action." - Please review: ".__FILE__
 			]);
-			header('Content-Type: application/json');
 		}
 }
 

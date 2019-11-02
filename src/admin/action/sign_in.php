@@ -4,10 +4,11 @@
  *
  *  Sign in action response. since signing in results into the panel view we got to load everything
  *
- * @request $_POST['cool_username'] = the user mail
- * @request $_POST['scary_password'] = the user password
+ * @data $data['cool_username'] = the user mail
+ * @data $data['scary_password'] = the user password
  */
 
+// TODO: load essentials before authentication, the others after
 
 require_once(HELPERS . 'functions.php');
 require_once(INC . 'class-session.php');

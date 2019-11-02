@@ -165,14 +165,15 @@ class Panel {
     private function set_inline_js_html() {
         global $url, $mdl;
 
-        $this->inline_js_html = "<script>let MDL = '".json_encode($mdl->get_active_module())."';".
-	                            "let ABSPATH = '".$url->host.BASE_DIR."';</script>";
+        $this->inline_js_html = "<script>".
+									"let MDL = '".json_encode($mdl->get_active_module())."';".
+		                            "let ABSPATH = '".$url->host.BASE_DIR."';".
+								"</script>";
     }
 
-    // Echo top bar
+    // get top bar
     private function get_top_bar() {
         return require_to_var(SECTIONS . 'top-bar.php');
-
     }
 
     // Get page content

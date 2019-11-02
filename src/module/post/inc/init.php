@@ -11,7 +11,7 @@ require_once ABSPATH.'module/'.$module['dir'].'/inc/functions.php';
 
 require_once ABSPATH.'module/'.$module['dir'].'/inc/class-view-table.php';
 
-// Route trough module
+// Route trough first post_type/#parameter layer
 if(isset($children[0])) {
 	switch($children[0]) {
 		case 'add':
@@ -25,6 +25,8 @@ if(isset($children[0])) {
 			$table = new View_table;
 			require_once ABSPATH.'module/'.$module['dir'].'/admin/view.php';
 	}
+
+// If no children are detected load default module page
 } else {
 	$table = new View_table;
 	require_once ABSPATH.'module/'.$module['dir'].'/admin/view.php';
