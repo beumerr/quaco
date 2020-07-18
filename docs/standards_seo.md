@@ -1,6 +1,6 @@
 # Quaco SEO standards
   
-For websites with commercial goals it's upmost important you attract visitors and get your conversion up. SEO (search engine optimization) is the first step to success. On #1 of all factors that determine the page rank, (quality) content wins the race. The Quaco 'SEO module' supports authors in writing content with accurate feedback. The feedback is based on an algorithm developed by our engineers that follows Google's guidelines.
+For websites with commercial goals it's upmost important you attract visitors and get your conversion up. SEO (search engine optimization) is the first step to success. On #1 of all factors that determine the page rank, (quality) content wins the race. The Quaco 'SEO module' supports authors in writing content with accurate feedback. The feedback is constructed by a Google like indexing algorithm, developed by our engineers.
 
 | #Nr | Allergic to | Reaction| Why |
 |--|--|--|--|
